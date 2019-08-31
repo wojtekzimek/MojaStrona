@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Strona internetowa tworzona na przedmiocie: Projektowanie stron WWWW">
+	<meta name="keywords" content="HTML, CSS, JS, PHP">
+	<meta name="author" content="I rok Informatyki KUL" type="text/css" media="print">
+	<link rel="stylesheet" href="css/styl1.css">
+	<title>I rok Informatyki</title>
+	<style>
+		h2{
+			margin: 2px;
+			padding: 10px;
+			width: 250px;
+			height: 50px;
+			border-radius: 25px;
+			line-height: 50px;
+			text-align: center;
+			background: lightblue;
+		}
+		.tekst-pl span{
+			background: brown;
+			color: white;
+			display: block;
+			height: 150px;
+			width: 150px;
+			line-height: 150px;
+			text-align: center;
+			border-radius: 75px;
+			margin-left: 20px;
+		}
+	</style>
+</head>
+<body>
+<div>
+    <h1 style="background:red; padding:3px; margin:0;">Testowanie znaków w HTMLu</h1>
+	<h2>Polskie znaki</h2>
+	<p class="tekst tekst-pl">	Mężny bądź chroń <span>pułk</span> twój i sześć flag.</p>
+	<h2>Cyrylica</h2>
+	<p class="tekst">	Лорем ипсум долор сит амет, сеа фацер цонсететур ех, вери бландит цу при, еу ест прима порро цорпора.</p>
+	<h2>Pismo chińskie</h2>
+	<p class="tekst"> 続終政団独面輸権属国教表写気。特兄番記道智切報歩加目意作秋。都治玉国登否胃稿海貞止体朝発月。記展政野治面円学供暮演団開郎関。刀銃緊作教部続週伝務無速分。歩進量報断崎興真推大重表自。設道載経量練夜意大務浩傷一全聞後会盤可厘。逆球健刊裁議却度上事努速録風東絶作。世西円建真度長料式観日抗絵。小界吹著最出写連医投話福走済問供。</p>
+	<h2>Pismo greckie</h2>
+	<p class="tekst"> Λορεμ ιπσθμ δολορ σιτ αμετ, δολορε αθδιρε ιντερπρεταρισ qθο cθ, προβο ποσσιτ νοστρο εξ qθι. Αμετ μαλισ μεδιοcρεμ ιν μει. Cονσθλ νονθμεσ αν ηασ, ιν ασσθμ νονθμεσ μαλθισσετ μει. Σθμο ανιμαλ δισcερε εστ ιδ.</p>
+	<h2>Znaki specjalne</h2>
+	<p id="encje"> Encja lt: &lt; <br>
+		Encja gt: &gt; <br>
+		Encja shy: <em>alamakota</em>alamakotaala&shy;<strong>makotaalamakota</strong>alamakotaalamakotaalamakotaalamakotaalamakotaalamakotaalamakota<br>
+		Encja amp: &amp; <br>
+		Znak unicode &#x10338; &#x1d121; &#x1d11e;
+	</p>
+	<h2 class="pud1">Nagłówek h2</h2>
+	<h2 style="background: orange;">Nagłówek h2</h2>
+	<h2 class="pud1">Nagłówek h2</h2>
+</div>
+</body>
+</html>
